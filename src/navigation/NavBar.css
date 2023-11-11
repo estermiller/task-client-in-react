@@ -1,0 +1,83 @@
+.base {
+    background-color: #fcedd8;
+    justify-content: center;
+    height: 5em;
+
+}
+
+.btn-2 {
+    place-content: center;
+    background: transparent;
+    border: 4px #62757f;
+    color: #fcedd8;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    font-size: 10px;
+    overflow: hidden;
+    font-size: 20px;
+    font-family:  MV Boli;
+
+}
+
+.btn7 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn7 span {
+    position: relative;
+    transition: all .45s ease-Out;
+}
+
+#underline {
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+    align-self: flex-end;
+    left: -100%;
+    background: #fcedd8;
+    position: absolute;
+    transition: all .3s ease-Out;
+    bottom: 0;
+}
+
+.btn7:hover #underline {
+    left: 0;
+}
+
+.line {
+    display: block;
+    justify-content: center;
+
+}
+
+.line .line-1 {
+    background-color: #fcedd8;
+    height: 8px;
+}
+
+.line .line-2 {
+    height: 45px;
+    background-color: #202020;
+   
+}
+
+.line .line-3 {
+    background-color: #46b59b;
+    height: 8px;
+}
+
+.line .line-4 {
+    background-color: #eb452b;
+    height: 6px;
+    box-shadow: 3px  3px 3px #211e1e;
+    
+}
+
+h4 {
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    font-size: 15px;
+}

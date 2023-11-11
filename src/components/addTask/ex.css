@@ -1,0 +1,14 @@
+.elementor-form .elementor-field-label {
+    position: absolute;
+    right: 18px;
+    transition-duration: .2s;
+}
+
+.elementor-field-label.active-field-label{
+    transform: translateY(-20px);
+    font-size: 16px !important;
+}
+
+.elementor-field{
+    box-shadow: none !important;
+}

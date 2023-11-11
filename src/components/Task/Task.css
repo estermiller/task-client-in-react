@@ -1,0 +1,11 @@
+.content{
+    background-color: #fcedd8;
+}
+
+.item{
+     width: '35%'; 
+     align-content: 'center' ;
+     justify-content: center;
+height: 5%;
+     
+}
